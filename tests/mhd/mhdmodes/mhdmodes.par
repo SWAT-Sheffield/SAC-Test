@@ -3,18 +3,18 @@
 /
 
 &filelist
-	filenameini='../../mhd/mhdmodes/mhdmodes_2D.ini'
+	filenameini='../../../tests/mhd/mhdmodes/mhdmodes_2D.ini'
 
 	typefileini='binary'
-	filename=   '../../mhd/mhdmodes/mhdmodes_2D.log',
-     		    '../../mhd/mhdmodes/mhdmodes_2D.out'
+	filename=   '../../../tests/mhd/mhdmodes/mhdmodes_2D.log',
+     		    '../../../tests/mhd/mhdmodes/mhdmodes_2D.out'
 	typefileout='binary'
         fullgridout= T
         fullgridini= T
  /
 
 &savelist
-	dtsave=0.1,0.0001
+	dtsave=10,10
 
  /
 

@@ -1,0 +1,6 @@
+[submodule "vac"]
+	path = src/vac
+	url = https://github.com/SWAT-Sheffield/vac.git
+[submodule "SAC"]
+	path = src/SAC
+	url = https://github.com/SWAT-Sheffield/SAC.git

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+xz -d 3D_196_100_100.ini.xz
 source_dir=../../sac/sac/src
 
 # Distribute the data

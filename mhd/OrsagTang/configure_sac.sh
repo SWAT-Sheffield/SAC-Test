@@ -1,5 +1,6 @@
 #!/bin/bash
 
+xz -d zero1_ot_asc_252.ini.xz 
 source_dir=../../sac/sac/src
 
 # Distribute the data

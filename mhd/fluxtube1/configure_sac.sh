@@ -1,5 +1,7 @@
 #!/bin/bash
 
+xz -d 3D_tube_128_128_128.ini.xz
+
 source_dir=../../sac/sac/src
 
 # Distribute the data

@@ -1,10 +1,14 @@
 #!/bin/bash
 
-xz -d zero1_ot_asc_252.ini.xz 
-source_dir=../../sac/sac/src
+if [ -f zero1_ot_asc_252.ini.xz ] 
+then
+    xz -d zero1_ot_asc_252.ini.xz 
+fi
+
+source_dir=../../../src/SAC/sac/src
 
 # Distribute the data
-#../../distribution -s=1 zero1_ot_asc_252.ini zero1_ot_asc_252_np0202.ini
+../../../distribution -s=1 zero1_ot_asc_252.ini zero1_ot_asc_252_np0202.ini
 
 #Copy configs to sac dir
 cp ./vacusr.t.OT $source_dir

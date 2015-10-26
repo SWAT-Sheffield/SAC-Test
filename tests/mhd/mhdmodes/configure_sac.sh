@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source_dir=../../sac/sac/src
+source_dir=../../../src/SAC/sac/src
 
 
 #Copy configs to sac dir
@@ -14,5 +14,6 @@ make cleanall
 
 ./setvac -s
 
+export F90=gfortran
 make vac
 
